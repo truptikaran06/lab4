@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: #1B1B32;
+}
+
+header {
+  background-color: #0A0A23;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#dashboard {
+
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #3B3B4F;
+  box-shadow: 0 0 10px white;
+  margin-top: 20px;
+}
+.icon-container {
+  margin-right: 50px;
+    margin-left: 50px;
+
+}
+#loading {
+  display: none;
+}
+
+.today-tomorrow-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #3B3B4F;
+  border-radius: 10px;
+}
+
+.day-container {
+  flex: 1;
+  margin: 10px;
+  color: #C39759;
+  padding: 10px;
+  border: 2px solid #1B1B32;
+  border-radius: 10px;
+  background-color: #3B3B4F;
+  box-shadow: 0 0 10px #1B1B32
+}
+.dashboard-button {
+  background-color: #0A0A23;
+  color: white;
+  border: none;
+  margin-top: 10pz;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+.dashboard-button:hover{
+	background-color: #3B3B4F;
+}
+
+footer {
+ position: fixed;
+ bottom: 0;
+ height: auto;
+  width: 100%;
+  background-color: #0A0A23;
+  color: #fff;
+  
+  text-align: center;
+
+
+}
+label{
+	color: white;
+	font-size: 20px;
+}
+
+select{
+	height: 30px;
+	background-color: #3B3B4F;
+	color: white;
+	border-radius: 8px;
+}
+input{
+	background-color: #3B3B4F;
+	height: 20px;
+	border: 2px solid #1B1B32;
+	color: white;
+	border-radius: 8px;
+
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #C39759;
+
+}
+.footer-content a {
+	color: #C39759;
+}
+.footer-content a:hover {
+	color: white;
+}
+@media only screen and (max-width: 600px) {
+  .icon-container {
+    margin-right: 0;
+  }
+
+  .today-tomorrow-container {
+    margin-top: 10px;
+  }
+  .today-tomorrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #3B3B4F;
+  border-radius: 10px;
+}
+
+.day-container {
+  flex: 1;
+  margin: 10px;
+  color: #C39759;
+  padding: 10px;
+  border: 2px solid #1B1B32;
+  border-radius: 10px;
+  background-color: #3B3B4F;
+  box-shadow: 0 0 10px #1B1B32;
+}
+
+}
